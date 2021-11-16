@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857653841221",
+    "project_id": "bistrochat-148f0",
+    "storage_bucket": "bistrochat-148f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857653841221:android:4327647f83f4b9fe35c22c",
+        "android_client_info": {
+          "package_name": "com.IsmailUsman_i180516_i180634"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857653841221-9qnhuh58nlgejum0esr46iu37oh6oknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEMzwOKjXvdpBcQr7IT2i5mtkANWkInXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857653841221-9qnhuh58nlgejum0esr46iu37oh6oknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"-->
+
+<!--        android:maxWidth = "200dp"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/mssg_container"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/message_bg"-->
+<!--        android:layout_alignParentRight="true">-->
+
+<!--        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--            android:id="@+id/profile_picture"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:src="@drawable/chat"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textMssg"-->
+<!--            android:maxWidth = "320dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toRightOf="@+id/profile_picture"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:text="Usman"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/last_mssg"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/textMssg"-->
+<!--            android:layout_toRightOf="@+id/profile_picture"-->
+
+<!--            android:text="12:05"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="13sp" />-->
+<!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sender_msg_box1"
+        android:padding="15dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/my_message"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:id="@+id/my_image_message"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:visibility="gone"
+                android:src="@drawable/temppicx"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/my_text_message"
+                android:maxWidth="250dp"
+                android:visibility="gone"
+                android:text="Hey, I am to Karachi, I will be back in a few days"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_time_stamp"
+            android:text="18:04"
+            android:layout_toRightOf="@id/my_message"
+            android:layout_below="@id/my_message"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

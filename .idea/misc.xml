@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/addcontact.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/addicon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/bluecall.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/bluecamera.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/bluechat.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/bluepeople.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/bottom_tab_home.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/call.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/call_made.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/call_received.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/circlebackgroundgreen.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/circlebackgroundgrey.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/editicon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/emogi.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/ic_round_almostblack_navigation.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/ic_selector.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/message_bg.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/people.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/receiver_msg_box1.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/round_camera.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/search.xml" value="0.25092592592592594" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/tab_home.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_call.xml" value="0.2" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_call_histories.xml" value="0.2" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_calll.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_chat.xml" value="0.264" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_contacts.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_create_profile.xml" value="0.20969202898550723" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_home.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_log_in.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/contact_row.xml" value="0.2" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_camera.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_message.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_people.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_phone.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/mssg_row.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Ismail butt/Desktop/Assignment02/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable-v24/online.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable-v24/sender_message.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/like_icon.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/drawable/sender_message2.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_chat.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/chat_row.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/contact_row.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/contacts_row.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_camera.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_message.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_people.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/ismai/AndroidStudioProjects/i180516_MuhammadIsmail_i180634_UsmanMazhar/app/src/main/res/layout/fragment_phone.xml" value="0.11927083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

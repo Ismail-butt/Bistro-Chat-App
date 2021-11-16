@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallHistories"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#1F1F1F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="#2B2B2B"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/write"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.8"
+            android:src="@drawable/write_mssg1"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/messagedetail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="1 new message"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:layout_weight="2.4" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:src="@drawable/chat_call"
+            android:scaleType="centerInside"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.9"
+        android:orientation="vertical"
+        android:weightSum="2.9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pic1"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:src="@drawable/janet_call"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2.4"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Janet Flower"
+                    android:textColor="@color/white"
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/callReceivedStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="inbound - 10:21"
+                    android:textColor="@color/white"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="13sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/callSendStatus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:src="@drawable/call_made"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_weight="0.01"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/rl"
+            android:layout_width="322dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pic2"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:src="@drawable/temppicx"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2.4"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Ellyse Perry"
+                    android:textColor="@color/white"
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="lost - 22:14"
+                    android:textColor="@color/white"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="13sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:src="@drawable/call_received"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_weight="0.01"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/rl"
+            android:layout_width="322dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:src="@drawable/temppicx"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2.4"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="Ellyse Perry"
+                    android:textColor="@color/white"
+                    android:gravity="bottom"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="inbound - monday"
+                    android:textColor="@color/white"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:textSize="13sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:src="@drawable/call_made"
+                android:scaleType="center" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_weight="0.01"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/rl"
+            android:layout_width="322dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/bottom_tab_home"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bluecall"
+            android:scaleType="centerInside"
+
+            />
+        <ImageButton
+            android:id="@+id/camera1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/camera"
+            android:scaleType="centerInside"
+            android:background="?android:selectableItemBackground"
+            />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/chat"
+            android:scaleType="centerInside"
+
+            />
+        <ImageView
+            android:id="@+id/people"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/people"
+            android:scaleType="centerInside"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

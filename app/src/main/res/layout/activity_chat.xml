@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F1F1F"
+    tools:context=".chatScreen"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.25"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.4"
+      android:background="#2B2B2B"
+      android:weightSum="4">
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/back_arrow"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3.2"
+        android:weightSum="2">
+
+      <TextView
+          android:id="@+id/receiverName"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:text="M. Ahmad"
+          android:textColor="@color/white"
+          android:gravity="bottom|center"
+          android:layout_weight="1"
+          android:scaleType="fitCenter"
+          android:textSize="20sp"
+          />
+      <TextView
+          android:id="@+id/isOnline"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:text="Online now"
+          android:textColor="@color/white"
+          android:gravity="top|center"
+          android:layout_weight="1"
+          android:scaleType="fitCenter"
+          android:textSize="15sp"
+          />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/callicon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/chat_call"
+        android:scaleType="center" />
+
+  </LinearLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/chat_rv"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2.9"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.35"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:weightSum="4"
+      android:orientation="horizontal"
+      android:background="@drawable/chat_tab">
+
+    <ImageView
+        android:layout_marginLeft="0.1dp"
+        android:id="@+id/emojiButton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/emogi"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:src="@drawable/ic_baseline_image_24"
+        android:scaleType="center" />
+
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:id="@+id/text_of_msg"
+        android:hint="Type your message"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/send_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_send_24"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:src="@drawable/camera"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:src="@drawable/mic"/>
+
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.15"/>
+
+
+
+</LinearLayout>
